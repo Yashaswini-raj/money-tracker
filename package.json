@@ -7,7 +7,7 @@
     "start": "set PORT=8080 && react-scripts start",
     "server": "nodemon index",
     "client": "npm start --prefix client",
-    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "build":  "react-scripts build",
     "dev": "concurrently \"npm start\" \"npm run client\" "
   },
   "keywords": [],
